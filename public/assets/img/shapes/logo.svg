@@ -1,0 +1,104 @@
+<svg style="position:relative" version="1.1" width="310" height="135" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+     ng-if="$root.removeAll != true" class="ng-scope">
+    <g ng-preview="" ng-model="config" ng-shapes="indexedShapes" ng-etape="etape"
+       class="ng-presentation ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty"
+       transform="translate(0 9.638465881347656)">
+        <g class="logo-preview ng-scope" transform="scale(0.39622641509433965)">
+            <g class="logo-ctn">
+                <g class="logo" id="item-0js6qe75xu9djhf2yyskfwiuivschsfc"
+                   transform="translate(168.26654052734375 0) scale(1.9127108464316473)">
+                    <linearGradient id="SVGID_w3x2mx34zq8hum7x3e4q9k7kj5aggwav" x1="0%" y1="0%" x2="100%" y2="0%"
+                                    gradientTransform="rotate(90)">
+                        <stop offset="0%" stop-color="#cf1d60" stop-opacity="1"></stop>
+                        <stop offset="100%" stop-color="#8c277e" stop-opacity="1"></stop>
+                    </linearGradient>
+                    <path
+                        d="M98.532 0H69.454a2.616 2.616 0 0 0-2.615 2.616v22.599s.096 8.938-11.893 13.588l.071.061H46.13l.072-.061c-11.989-4.65-11.893-13.588-11.893-13.588V2.616A2.616 2.616 0 0 0 31.693 0H2.616A2.616 2.616 0 0 0 0 2.616v28.775a2.616 2.616 0 0 0 2.616 2.615H27.6c8.116 1.471 10.385 9.062 10.814 10.87v16.412a1.87 1.87 0 0 0 1.869 1.869H60.84a1.87 1.87 0 0 0 1.868-1.869V44.986c.348-1.547 2.519-9.471 10.84-10.979h24.985a2.615 2.615 0 0 0 2.615-2.615V2.616A2.617 2.617 0 0 0 98.532 0z"
+                        fill="url(#SVGID_w3x2mx34zq8hum7x3e4q9k7kj5aggwav)"></path>
+                    <path
+                        d="M19.328 40.341H3.791a3.488 3.488 0 0 0-3.488 3.488v38.948a3.488 3.488 0 0 0 3.488 3.488h15.538a3.488 3.488 0 0 0 3.488-3.488V43.829a3.489 3.489 0 0 0-3.489-3.488zM97.659 40.341H82.122a3.488 3.488 0 0 0-3.488 3.488v38.948a3.49 3.49 0 0 0 3.488 3.488h15.537a3.488 3.488 0 0 0 3.488-3.488V43.829a3.487 3.487 0 0 0-3.488-3.488z"
+                        fill="#7d2985"></path>
+                </g>
+            </g>
+            <g class="main" transform="translate(0 179)">
+                <g class="formes"></g>
+                <g class="inline-shape">
+                    <g class="contents">
+                        <g id="texts">
+                            <g class="firstLine" transform="translate(64.0546875 0) scale(1)">
+                                <!--                                <text id="item-ujb525z1fsrcaec1y3de1saav1agmcka" key="0" dominant-baseline="auto" alignment-baseline="auto" font-family="Explora" font-size="62px" fill="#7d2985" letter-spacing="0" xml:space="preserve" class="" transform="translate(0 56)">Motarjem4You</text>-->
+                            </g>
+                            <g class="sndLine" transform="translate(97.4033203125 71.96774193548387)  scale(1)">
+                                <!--            <text id="item-962hv8yas5x2ctf46wemj5wxygoqpz6k" key="1" dominant-baseline="auto" alignment-baseline="auto" font-family="Explora" font-size="34px" fill="#8c277e" letter-spacing="0" xml:space="preserve" class="" transform="translate(0 31)">For Travel And Translate</text>-->
+                                <g class="details" id="item-6e7yasx6r4q3c7s488c9u17mfpgcom65"
+                                   transform="scale(1.8083484057054697 0.8152617126967828) translate(-18 23)">
+                                    <!--                                    <rect width="12.266" height="3.152" fill="#8c277e"></rect>-->
+                                </g>
+                            </g>
+                            <g class="thirdLine" transform="translate(265 105.96774193548387)  scale(1)"></g>
+                            <g class="initial"></g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g ng-preview="" ng-model="config" ng-shapes="indexedShapes" ng-etape="etape"
+       class="ng-presentation ng-pristine ng-valid ng-isolate-scope ng-not-empty ng-touched"
+       transform="translate(145 10.811309814453125)">
+        <g class="logo-preview ng-scope" transform="scale(0.39622641509433965)">
+            <g class="logo-ctn">
+                <g class="logo" id="item-p8gh3jzt6eaiwgm46615exrvlf3qiq0h"
+                   transform="translate(0 0) scale( 1.4352244130857197)">
+                    <linearGradient id="SVGID_zw1lgw0kv5ics16nriu465l0t7vqi0e8" x1="0%" y1="0%" x2="100%" y2="0%"
+                                    gradientTransform="rotate(90)">
+                        <stop offset="0%" stop-color="#882c85" stop-opacity="1"></stop>
+                        <stop offset="100%" stop-color="#e53764" stop-opacity="1"></stop>
+                    </linearGradient>
+                    <path
+                        d="M91.863 13.173C91.739 7.188 89.985.879 83.083.137c-1.977-.212-3.992-.115-5.978-.115H17.506C8.355.022 1.137 6.674.339 15.649c-.01.089-.028.174-.037.264-.355 3.651-.029 7.476-.029 11.136v29.984c0 .323.057.608.136.875.192 1.265 1.112 2.398 2.765 2.398h55.465c3.74 0 3.74-5.801 0-5.801H6.074V30.719 17.92c0-6.465 4.096-11.756 10.873-11.975.276-.009.524-.058.76-.124H79.5c2.972 0 5.382.04 6.216 3.51.341 1.422.451 2.936.472 4.463H16.949c-1.581 0-2.9 1.319-2.9 2.9v28.115c0 3.74 5.801 3.74 5.801 0V19.594h66.231c-.006 2.312.184 6.597-2.353 7.621-2.463.996-6.372.352-8.927.352h-44.08c-.854 0-1.503.311-1.967.776-.028.024-.053.052-.081.076-.025.027-.052.052-.076.08-.466.465-.777 1.113-.777 1.968v13.164c0 .854.311 1.503.778 1.968.023.027.05.053.075.079.027.025.053.053.082.077.464.466 1.113.776 1.966.776h24.804c2.213 0 7.654-.811 9.188 1.221 1.714 2.273 1.357 6.083 1.376 8.746.021 3.187.404 7.091-1.058 10.036-1.283 2.584-6.59 1.742-8.986 1.742H16.949c-.854 0-1.502.311-1.967.777-.028.023-.053.051-.081.076-.025.027-.052.052-.076.08-.466.464-.777 1.113-.777 1.967v37.65a30.314 30.314 0 00-.621-.029c-2.299-.089-6-.241-7.001-2.792-.438-1.117-.351-2.369-.351-3.55V90.36 67.346c0-3.74-5.801-3.74-5.801 0v23.646c0 6.994-2.18 18.746 5.774 22.192 5.64 2.444 13.924 2.061 19.804.708 5.232-1.205 7.768-5.551 7.768-10.675v-26.72-2.422h27.542c6.719 0 9.773-4.587 10.522-10.727.68-5.578 1.263-14.248-2.327-19.006-2.612-3.463-6.667-3.614-10.62-3.614H33.621v-7.364h45.417c3.201 0 6.611.062 9.178-2.195 4.752-4.176 3.763-12.34 3.647-17.996zM27.819 94.438v9.137c0 4.323-3.921 5.335-7.972 5.452V74.079h7.972v20.359z"
+                        fill="url(#SVGID_zw1lgw0kv5ics16nriu465l0t7vqi0e8)"></path>
+                </g>
+            </g>
+            <g class="main" transform="translate(152.07659912109375 32.450164794921875)">
+                <g class="formes"></g>
+                <g class="inline-shape">
+                    <g class="contents">
+                        <g id="texts">
+                            <!--                            <g class="firstLine" transform="scale(1)">-->
+                            <!--&lt;!&ndash;                                <text id="item-gn8vzugcnbo4pog5e6olqs1pirxxsuxu" key="0" dominant-baseline="auto" alignment-baseline="auto" font-family="Cunia" font-size="62px" fill="#e53764" letter-spacing="0" xml:space="preserve" class="" transform="translate(0 58)">For</text>&ndash;&gt;-->
+                            <!--                            </g>-->
+                            <!--                            <g class="sndLine" transform="translate(0 69.73753906368988)  scale(0.761318780492603)">-->
+                            <!--&lt;!&ndash;                                <text id="item-bqlbze4n0he08fkby9zv5m67m3mrpxo0" key="1" dominant-baseline="auto" alignment-baseline="auto" font-family="Cunia" font-size="34px" fill="#882c85" letter-spacing="0" xml:space="preserve" class="" transform="translate(0 32)">For Travel And Translete</text>&ndash;&gt;-->
+                            <!--                            </g>-->
+                            <g class="thirdLine"
+                               transform="translate(0 520.79511979531563)  scale(0.761318780492603)"></g>
+                            <g class="initial"></g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g ng-preview="" ng-model="config" ng-shapes="indexedShapes" ng-etape="etape"
+       class="ng-presentation ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty"
+       transform="translate(0 15.032356262207031)">
+        <g class="logo-preview ng-scope" transform="scale(0.39622641509433965)">
+            <g class="logo-ctn">
+                <g class="logo" id="item-e6t5po80w7ejgsjarduitpvqvxrm33tr"
+                   transform="translate(495.81781005859375 0) scale(1.4383816928982511)">
+                    <linearGradient id="SVGID_v450du364dmd09hn68gcpkibb5587c27" x1="0%" y1="0%" x2="100%" y2="0%"
+                                    gradientTransform="rotate(90)">
+                        <stop offset="0%" stop-color="#A9307A" stop-opacity="1"></stop>
+                        <stop offset="100%" stop-color="#7D2985" stop-opacity="1"></stop>
+                    </linearGradient>
+                    <path
+                        d="M75.195.634c-6.226 1.504-9.624 7.26-13.168 12.036l-9.433 12.716c-2.612 3.521 3.284 6.899 5.861 3.426l9.926-13.379 3.662-4.937c3.784-5.102 11.001-4.515 15.146-.407 7.459 7.391-3.846 18.397-8.212 24.283L64.674 53.651 30.336 7.366c-4.652-6.271-12.718-9.249-20.149-6.097-9.523 4.041-12.8 15.046-7.99 23.942 1.936 3.579 4.986 6.823 7.397 10.073l12.887 17.37 5.117 6.898-7.825 10.377L8.489 84.894c-3.11 4.125-5.58 7.86-5.76 13.334-.324 9.86 9.455 17.725 18.919 16.322 5.447-.808 9.196-3.971 12.354-8.227l17.907-24.138 15.455-20.832c.248-.244.455-.517.605-.816 8.229-11.092 16.457-22.184 24.686-33.274C102.229 14.359 91.032-3.19 75.195.634zM31.849 97.9c-3.306 4.456-6.045 9.694-12.3 10.053-8.567.491-12.567-9.857-7.835-16.134l4.008-5.315 28.729-38.101c2.639-3.498-3.261-6.875-5.861-3.427l-6.755 8.959-16.852-22.714c-2.537-3.42-5.489-6.781-7.522-10.542-5.538-10.242 10.311-18.921 17.014-9.887l35.998 48.524L31.849 97.9z"
+                        fill="url(#SVGID_v450du364dmd09hn68gcpkibb5587c27)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+
