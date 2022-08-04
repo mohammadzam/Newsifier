@@ -11,6 +11,11 @@
 |
 */
 
-Route::prefix('user')->group(function() {
-    Route::get('/', 'UserController@index');
-});
+use Illuminate\Support\Facades\Route;
+
+
+Route::get('sign-in', 'SignInController@showSignInPage')->name('user.show.sign-in');
+Route::post('signing-in', 'SignInController@signingIn')->name('user.signing-in');
+Route::get('sign-up', 'SignUpController@showSignUpPage')->name('user.show.sign-up');
+Route::post('signing-up', 'SignUpController@signingUp')->name('user.signing-up');
+
