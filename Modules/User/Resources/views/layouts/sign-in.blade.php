@@ -4,15 +4,15 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{url('assets/img/apple-icon.png')}}">
-    <link rel="icon" type="image/png" href="{{url('assets/img/favicon.png')}}">
+{{--    <link rel="apple-touch-icon" sizes="76x76" href="{{url('assets/img/apple-icon.png')}}">--}}
+{{--    <link rel="icon" type="image/png" href="{{url('assets/img/favicon.png')}}">--}}
     <title>
-        {{$page_name}}
+{{--        {{$page_name}}--}}
     </title>
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"/>
     <!-- Nucleo Icons -->
-    <link href="{{url('assets/css/nucleo-icons.css')}}" rel="stylesheet" type="text/css"/>
+{{--    <link href="{{url('assets/css/nucleo-icons.css')}}" rel="stylesheet" type="text/css"/>--}}
     <link href="{{url('assets/css/nucleo-svg.css')}}" rel="stylesheet" type="text/css"/>
     <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
@@ -79,7 +79,7 @@
                             <div class="card-body">
                                 @if(Session::has('error'))
                                     <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                                        {{--                                        <span class="alert-icon"><i class="ni ni-like-2"></i></span>--}}
+{{--                                                                                <span class="alert-icon"><i class="ni ni-like-2"></i></span>--}}
                                         <span
                                             class="alert-text"><strong>Error!</strong> {{Session::get('error')}}</span>
                                         <button type="button" class="btn-close" data-bs-dismiss="alert"
@@ -153,5 +153,5 @@
     </section>
 </main>
 </body>
-
+<script src="{{asset('assets/js/core/bootstrap.min.js')}}"></script>
 </html>
