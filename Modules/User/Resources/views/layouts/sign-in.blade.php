@@ -154,4 +154,5 @@
 </main>
 </body>
 <script src="{{asset('assets/js/core/bootstrap.min.js')}}"></script>
+@include('sweetalert::alert')
 </html>
