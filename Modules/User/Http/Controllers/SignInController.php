@@ -21,8 +21,7 @@ class SignInController extends Controller
 //        dd($validated);
         if (Auth::attempt(['phone' => $validated['phone'], 'password' =>$validated['password']])) {
             alert()->toast('You have been successfully signing in', 'success');
-            dd(' successfully signed in ');
-            return redirect()->route('show.dashboard.page');
+            return redirect()->route('show.main.page');
         }
         else {
             alert()->toast('The phone number or password is incorrect', 'error');

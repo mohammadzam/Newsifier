@@ -134,6 +134,7 @@
 </section>
 
 <script src="{{url('assets/js/core/bootstrap.min.js')}}"></script>
-</body>
 @include('sweetalert::alert')
+</body>
+
 </html>
