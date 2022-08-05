@@ -17,13 +17,14 @@ class SignUpController extends Controller
         return Auth::guard('web');
     }
 
-    public function ShowRegistrationPage()
+    public function showSignUpPage()
     {
         $page_name = 'Newsifier | User - Sign Up';
-        return view('sick::layouts.sick.registration', compact('page_name'));
+        return view('user::layouts.sign-up', compact('page_name'));
     }
-    public function registration(RegistrationRequest $request){
+    public function signingUp(RegistrationRequest $request){
         $validated = $request->validated();
+//        dd($validated);
          $user = User::create([
             'name' => $validated['name'],
             'phone' =>$validated['phone'] ,
@@ -32,7 +33,6 @@ class SignUpController extends Controller
         ]);
         $this->guard()->login($user);
         alert()->toast('You have been successfully signing up', 'success');
-        dd('successfully signing up');
-
+        return redirect()->route('show.main.page');
     }
 }

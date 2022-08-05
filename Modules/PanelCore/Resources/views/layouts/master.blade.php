@@ -29,6 +29,7 @@
 </head>
 
 <body data-theme-mode-panel-active data-theme="light" style="font-family: 'Mazzard H';">
+{{--@dd(auth()->user()->name)--}}
 <a class="shade-floating-btn" href="https://finestdevs.com/shade/#shade-pricing"><img src="image/download.svg"/> Download Shade Now</a>
 <div class="site-wrapper overflow-hidden position-relative">
     <!--Site Header Area -->
@@ -493,5 +494,5 @@
 <!-- Activation Script -->
 <script src="{{asset('landing-assets/js/custom.js')}}"></script>
 </body>
-
+@include('sweetalert::alert')
 </html>

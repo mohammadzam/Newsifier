@@ -15,7 +15,7 @@ class RegistrationRequest extends FormRequest
         return [
             'name' => 'required|string|min:3|max:64',
             'phone' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10|max:10',
-            'password' => 'required',
+            'password' => 'required|string|min:8|confirmed|max:225',
 
         ];
     }
