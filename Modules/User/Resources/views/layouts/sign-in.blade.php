@@ -4,15 +4,14 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-{{--    <link rel="apple-touch-icon" sizes="76x76" href="{{url('assets/img/apple-icon.png')}}">--}}
-{{--    <link rel="icon" type="image/png" href="{{url('assets/img/favicon.png')}}">--}}
+
     <title>
-{{--        {{$page_name}}--}}
+        {{$page_name}}
     </title>
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"/>
     <!-- Nucleo Icons -->
-{{--    <link href="{{url('assets/css/nucleo-icons.css')}}" rel="stylesheet" type="text/css"/>--}}
+    <link href="{{url('assets/css/nucleo-icons.css')}}" rel="stylesheet" type="text/css"/>
     <link href="{{url('assets/css/nucleo-svg.css')}}" rel="stylesheet" type="text/css"/>
     <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
@@ -36,11 +35,11 @@
                     <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
                             aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon mt-2">
-                <span class="navbar-toggler-bar bar1"></span>
-                <span class="navbar-toggler-bar bar2"></span>
-                <span class="navbar-toggler-bar bar3"></span>
-              </span>
+                          <span class="navbar-toggler-icon mt-2">
+                            <span class="navbar-toggler-bar bar1"></span>
+                            <span class="navbar-toggler-bar bar2"></span>
+                            <span class="navbar-toggler-bar bar3"></span>
+                          </span>
                     </button>
                     <div class="collapse navbar-collapse" id="navigation">
                         <ul class="navbar-nav mx-auto">
@@ -79,7 +78,7 @@
                             <div class="card-body">
                                 @if(Session::has('error'))
                                     <div class="alert alert-danger alert-dismissible fade show" role="alert">
-{{--                                                                                <span class="alert-icon"><i class="ni ni-like-2"></i></span>--}}
+                                        {{--                                                                                <span class="alert-icon"><i class="ni ni-like-2"></i></span>--}}
                                         <span
                                             class="alert-text"><strong>Error!</strong> {{Session::get('error')}}</span>
                                         <button type="button" class="btn-close" data-bs-dismiss="alert"
