@@ -1,0 +1,13 @@
+{
+    "name": "PanelCore",
+    "alias": "panelcore",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PanelCore\\Providers\\PanelCoreServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
