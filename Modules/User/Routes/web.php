@@ -18,7 +18,14 @@ Route::get('sign-in', 'SignInController@showSignInPage')->name('user.show.sign-i
 Route::post('signing-in', 'SignInController@signingIn')->name('user.signing-in');
 Route::get('sign-up', 'SignUpController@showSignUpPage')->name('user.show.sign-up');
 Route::post('signing-up', 'SignUpController@signingUp')->name('user.signing-up');
-
+Route::post('upload-test', function () {
+    return response()->json([
+        'success' => 1,
+        'file' => [
+            "url" => "https://www.tesla.com/tesla_theme/assets/img/_vehicle_redesign/roadster_and_semi/roadster/hero.jpg",
+        ],
+    ]);
+});
 Route::middleware('auth:web')->group(function() {
     Route::post('logout', 'SignOutController@Logout')->name('user.logout');
 });

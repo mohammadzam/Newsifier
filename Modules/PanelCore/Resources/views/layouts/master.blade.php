@@ -84,12 +84,14 @@
                         <p>
                             We are a platform that allows you to browse and download GIF images with high speed and accuracy                        </p>
                     </div>
+                    <div id="editorjs">  </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Portfolio  Area -->
     <div class="portfolio-section" id="portfolio-section">
+
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12">
@@ -254,10 +256,35 @@
 <script src="{{asset('landing-assets/plugins/isotope/packery.pkgd.min.js')}}"></script>
 <script src="{{asset('landing-assets/plugins/isotope/image.loaded.js')}}"></script>
 <script src="{{asset('landing-assets/plugins/menu/menu.js')}}"></script>
+<script src="{{asset('landing-assets/plugins/menu/menu.js')}}"></script>
+<script src="{{asset('landing-assets/js/menu.js')}}"></script>
+<script src="{{url('landing-assets/js/editor.js')}}"></script>
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/simple-image@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/image@2.3.0"></script>
 <!-- Activation Script -->
-<script src="{{asset('landing-assets/js/custom.js')}}"></script>
 @include('sweetalert::alert')
 
+<script>
+    const editor = new EditorJS({
+        autofocus: true,
+        holder:'editorjs',
+        tools: {
+            // image: {
+            //     class: SimpleImage,
+            //     inlineToolbar: true
+            // },
+            image: {
+                class: ImageTool,
+                config: {
+                    endpoints: {
+                        byFile: 'http://localhost:8000/user/upload-test', // Your backend file uploader endpoint
+                        // byUrl: 'http://localhost:8000/fetchUrl', // Your endpoint that provides uploading by Url
+                    }
+                }
+            }
+    }
+    })
+</script>
 </body>
 
 </html>
