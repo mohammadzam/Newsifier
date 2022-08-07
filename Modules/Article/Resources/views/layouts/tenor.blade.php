@@ -5,9 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <title>Document</title>
 
+    <title>Document</title>
 </head>
 <body>
 <style>
@@ -38,25 +37,19 @@
 
 </style>
 <h1>Your content</h1>
-<form id="create-form" method="post" action="{{ route('test-save') }}">
-    @csrf
 <div id="editorjs">
 </div>
-<button type="submit"> Save Article</button>
+<button> Save Article</button>
 
-</form>
 <script src="{{asset('landing-assets/js/editor.js')}}"></script>
 <script src="{{asset('landing-assets/js/image.js')}}"></script>
-<script src="{{asset('landing-assets/js/button.js')
-}}"></script>
+<script src="{{asset('landing-assets/js/button.js')}}"></script>
 {{--<script src="https://cdn.jsdelivr.net/npm/@editorjs/simple-image@latest"></script>--}}
 {{--<script src="https://cdn.jsdelivr.net/npm/@editorjs/image@2.3.0"></script>--}}
 <script src="https://cdn.jsdelivr.net/npm/@editorjs/embed@latest"></script>
 {{--<script src="https://cdn.jsdelivr.net/npm/editorjs-button@1.0.4"></script>--}}
 <script src="https://cdn.jsdelivr.net/npm/@editorjs/link@2.0.0"></script>
-
 <script>
-
     const editor = new EditorJS({
         autofocus: true,
         holder:'editorjs',
@@ -90,31 +83,6 @@
             },
         },
     })
-
-    const formElement = document.forms['create-form'];
-
-    formElement.addEventListener('submit', customHandler);
-
-    function customHandler(e) {
-        e.preventDefault();
-        //....
-
-        var article = document.createElement("input");
-        article.setAttribute("type", "hidden");
-        article.setAttribute("name", "article");
-        editor.save().then((outputData) => {
-            console.log('Article data: ',outputData )
-            console.log('Article data: ',JSON.stringify(outputData) )
-            article.setAttribute("value", JSON.stringify(outputData));
-            formElement.appendChild(article)
-            formElement.removeEventListener('submit', customHandler);
-            formElement.submit();
-
-        }).catch((error) => {
-            console.log('Saving failed: ', error)
-        });
-
-    }
 </script>
 </body>
 </html>

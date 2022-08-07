@@ -14,5 +14,8 @@ class VerifyCsrfToken extends Middleware
     protected $except = [
         'user/upload-test',
         'user/fetchUrl',
+        'user/article/upload-test',
+        'user/article/fetchUrl',
+
     ];
 }

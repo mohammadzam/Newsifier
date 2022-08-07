@@ -37,7 +37,7 @@
                 </div>
                 <div class="header-btn sign-in-header-btn-1 mt-3 ms-auto d-none d-xs-inline-flex">
                     @if(\Illuminate\Support\Facades\Auth::check())
-                    <a target="_blank" class="btn download-trail-btn btn focus-reset" href="{{route('user.show.create.article.form')}}">
+                    <a class="btn download-trail-btn btn focus-reset" href="{{route('user.show.create.article.form')}}">
                         Create Article
                     </a>
                         <a target="" class="btn download-trail-btn btn focus-reset" onclick="event.preventDefault();
@@ -75,8 +75,6 @@
                         <h2>Newsifier Posts</h2>
                         <p>
                             We are a platform that allows you to browse and download GIF images with high speed and accuracy                        </p>
-                    </div>
-                    <div id="editorjs">
                     </div>
                 </div>
             </div>
@@ -245,28 +243,28 @@
 <script src="{{asset('landing-assets/plugins/menu/menu.js')}}"></script>
 <script src="{{asset('landing-assets/js/menu.js')}}"></script>
 <script src="{{asset('landing-assets/js/editor.js')}}"></script>
-<script src="https://cdn.jsdelivr.net/npm/@editorjs/simple-image@latest"></script>
-<script src="https://cdn.jsdelivr.net/npm/@editorjs/image@2.3.0"></script>
+{{--<script src="https://cdn.jsdelivr.net/npm/@editorjs/simple-image@latest"></script>--}}
+{{--<script src="https://cdn.jsdelivr.net/npm/@editorjs/image@2.3.0"></script>--}}
 <!-- Activation Script -->
 @include('sweetalert::alert')
 
-<script>
-    const editor = new EditorJS({
-        autofocus: true,
-        holder:'editorjs',
-        tools: {
-            image: {
-                class: ImageTool,
-                config: {
-                    endpoints: {
-                        byFile: 'http://localhost:8000/user/upload-test', // Your backend file uploader endpoint
-                        byUrl: 'http://localhost:8000/user/fetchUrl', // Your endpoint that provides uploading by Url
-                    }
-                }
-            },
-        }
-    })
-</script>
+{{--<script>--}}
+{{--    const editor = new EditorJS({--}}
+{{--        autofocus: true,--}}
+{{--        holder:'editorjs',--}}
+{{--        tools: {--}}
+{{--            image: {--}}
+{{--                class: ImageTool,--}}
+{{--                config: {--}}
+{{--                    endpoints: {--}}
+{{--                        byFile: 'http://localhost:8000/user/upload-test', // Your backend file uploader endpoint--}}
+{{--                        byUrl: 'http://localhost:8000/user/fetchUrl', // Your endpoint that provides uploading by Url--}}
+{{--                    }--}}
+{{--                }--}}
+{{--            },--}}
+{{--        }--}}
+{{--    })--}}
+{{--</script>--}}
 </body>
 
 </html>

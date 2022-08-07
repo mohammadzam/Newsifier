@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/landing', function () {
-    return view('panelcore::layouts.master');
+Route::get('/tenor', function () {
+    return view('article::layouts.tenor');
+});
+Route::get('/fy', function () {
+    return view('article::layouts.test');
 });
