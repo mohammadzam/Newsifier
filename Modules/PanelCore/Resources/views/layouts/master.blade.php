@@ -10,14 +10,6 @@
     <!-- Bootstrap , fonts & icons  -->
     <link rel="stylesheet" href="{{asset('landing-assets/css/bootstrap.css')}}">
     <link rel="stylesheet" href="{{asset('landing-assets/fonts/icon-font/css/style.css')}}">
-    <link rel="stylesheet" href="{{asset('landing-assets/fonts/typography-font/typo.css')}}">
-    <link rel="stylesheet" href="{{asset('landing-assets/fonts/fontawesome-5/css/all.css')}}">
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
     <!-- Plugin'stylesheets  -->
     <link rel="stylesheet" href="{{asset('landing-assets/plugins/aos/aos.min.css')}}">
     <link rel="stylesheet" href="{{asset('landing-assets/plugins/fancybox/jquery.fancybox.min.css')}}">
@@ -45,7 +37,7 @@
                 </div>
                 <div class="header-btn sign-in-header-btn-1 mt-3 ms-auto d-none d-xs-inline-flex">
                     @if(\Illuminate\Support\Facades\Auth::check())
-                    <a target="_blank" class="btn download-trail-btn btn focus-reset" href="https://finestdevs.com/shade/">
+                    <a target="_blank" class="btn download-trail-btn btn focus-reset" href="{{route('user.show.create.article.form')}}">
                         Create Article
                     </a>
                         <a target="" class="btn download-trail-btn btn focus-reset" onclick="event.preventDefault();
@@ -84,7 +76,8 @@
                         <p>
                             We are a platform that allows you to browse and download GIF images with high speed and accuracy                        </p>
                     </div>
-                    <div id="editorjs">  </div>
+                    <div id="editorjs">
+                    </div>
                 </div>
             </div>
         </div>
@@ -244,21 +237,14 @@
     </footer>
 </div>
 <!-- Vendor Scripts -->
-<script src="{{asset('landing-assets/js/vendor.min.js')}}"></script>
 <!-- Plugin's Scripts -->
-<script src="{{asset('landing-assets/plugins/fancybox/jquery.fancybox.min.js')}}"></script>
-<script src="{{asset('landing-assets/plugins/nice-select/jquery.nice-select.min.js')}}"></script>
 <script src="{{asset('landing-assets/plugins/aos/aos.min.js')}}"></script>
-<script src="{{asset('landing-assets/plugins/slick/slick.min.js')}}"></script>
-<script src="https://porjoton.netlify.app/mekanic/js/waypoints.min.js"></script>
-<script src="{{asset('landing-assets/plugins/counter-up/jquery.counterup.min.js')}}"></script>
 <script src="{{asset('landing-assets/plugins/isotope/isotope.pkgd.min.js')}}"></script>
 <script src="{{asset('landing-assets/plugins/isotope/packery.pkgd.min.js')}}"></script>
 <script src="{{asset('landing-assets/plugins/isotope/image.loaded.js')}}"></script>
 <script src="{{asset('landing-assets/plugins/menu/menu.js')}}"></script>
-<script src="{{asset('landing-assets/plugins/menu/menu.js')}}"></script>
 <script src="{{asset('landing-assets/js/menu.js')}}"></script>
-<script src="{{url('landing-assets/js/editor.js')}}"></script>
+<script src="{{asset('landing-assets/js/editor.js')}}"></script>
 <script src="https://cdn.jsdelivr.net/npm/@editorjs/simple-image@latest"></script>
 <script src="https://cdn.jsdelivr.net/npm/@editorjs/image@2.3.0"></script>
 <!-- Activation Script -->
@@ -269,20 +255,16 @@
         autofocus: true,
         holder:'editorjs',
         tools: {
-            // image: {
-            //     class: SimpleImage,
-            //     inlineToolbar: true
-            // },
             image: {
                 class: ImageTool,
                 config: {
                     endpoints: {
                         byFile: 'http://localhost:8000/user/upload-test', // Your backend file uploader endpoint
-                        // byUrl: 'http://localhost:8000/fetchUrl', // Your endpoint that provides uploading by Url
+                        byUrl: 'http://localhost:8000/user/fetchUrl', // Your endpoint that provides uploading by Url
                     }
                 }
-            }
-    }
+            },
+        }
     })
 </script>
 </body>

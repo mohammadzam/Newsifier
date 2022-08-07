@@ -26,6 +26,14 @@ Route::post('upload-test', function () {
         ],
     ]);
 });
+Route::post('fetchUrl', function () {
+    return response()->json([
+        'success' => 1,
+        'file' => [
+            "url" => "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5eeea355389655.59822ff824b72.gif",
+        ],
+    ]);
+});
 Route::middleware('auth:web')->group(function() {
     Route::post('logout', 'SignOutController@Logout')->name('user.logout');
 });

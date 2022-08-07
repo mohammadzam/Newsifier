@@ -1,5 +1,6 @@
 {
     "Admin": true,
     "User": true,
-    "PanelCore": true
+    "PanelCore": true,
+    "Article": true
 }
