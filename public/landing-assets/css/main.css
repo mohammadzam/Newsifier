@@ -21508,21 +21508,22 @@ Content Area-1 L-11-2
         <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 .footer-sign-in-1 {
-    padding-top: 60px;
-    padding-bottom: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: lavender;
 }
 
 @media (min-width: 768px) {
     .footer-sign-in-1 {
-        padding-top: 80px;
-        padding-bottom: 50px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 }
 
 @media (min-width: 992px) {
     .footer-sign-in-1 {
-        padding-top: 80px;
-        padding-bottom: 85px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 }
 
