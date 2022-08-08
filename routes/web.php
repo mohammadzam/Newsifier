@@ -12,10 +12,3 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/tenor', function () {
-    return view('article::layouts.tenor');
-});
-Route::get('/fy', function () {
-    return view('article::layouts.test');
-});

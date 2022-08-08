@@ -12,6 +12,5 @@
 */
 
 use Illuminate\Support\Facades\Route;
-
 Route::get('/', 'PanelCoreController@index')->name('show.main.page');
 
