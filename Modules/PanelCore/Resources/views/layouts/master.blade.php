@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{$page_name??'Newsifier | Main'}}</title>
-    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="{{asset('landing-assets/image/favicon.png')}}" type="image/x-icon">
     <!-- Bootstrap , fonts & icons  -->
     <link rel="stylesheet" href="{{asset('landing-assets/css/bootstrap.css')}}">
     <link rel="stylesheet" href="{{asset('landing-assets/fonts/icon-font/css/style.css')}}">
@@ -30,9 +30,9 @@
                 <div class="brand-logo">
                     <a href="#">
                         <!-- light version logo (logo must be black)-->
-                        <img src="{{asset('landing-assets/image/logo/logo-black.png')}}" alt="" class="light-version-logo">
+                        <img src="{{asset('landing-assets/image/logo.svg')}}" alt="" class="light-version-logo">
                         <!-- Dark version logo (logo must be White)-->
-                        <img src="{{asset('landing-assets/image/logo/logo-white.png')}}" alt="" class="dark-version-logo">
+                        <img src="{{asset('landing-assets/image/logo.svg')}}" alt="" class="dark-version-logo">
                     </a>
                 </div>
                 <div class="header-btn sign-in-header-btn-1 mt-3 ms-auto d-none d-xs-inline-flex">
@@ -172,7 +172,7 @@
     <!--Footer Area-->
     <footer class="footer-sign-in-1">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-lg-5 col-sm-9">
                     <div class="row">
                         <div class="col-xl-9 col-lg-10 col-md-8">
@@ -193,43 +193,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-7 col-md-12">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                            <div class="footer-widget">
-                                <p class="widget-title">Help menu</p>
-                                <ul class="widget-links pl-0 list-unstyled">
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Features</a></li>
-                                    <li><a href="#">Works</a></li>
-                                    <li><a href="#">Career</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-5 col-md-5 col-sm-4 col-xs-6 pl-md-9 pl-6">
-                            <div class="footer-widget">
-                                <p class="widget-title ">Support</p>
-                                <ul class="widget-links pl-0 list-unstyled">
-                                    <li><a href="#">contact </a></li>
-                                    <li><a href="#">Help & Support</a></li>
-                                    <li><a href="#">Privacy and Policy</a></li>
-                                    <li><a href="#">Terms & Conditions</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                            <div class="footer-widget">
-                                <p class="widget-title ">Products</p>
-                                <ul class="widget-links pl-0 list-unstyled">
-                                    <li><a href="#">Shades Pro</a></li>
-                                    <li><a href="#">Essentiol Blocks</a></li>
-                                    <li><a href="#">Avasta Dash</a></li>
-                                    <li><a href="#">vApp Landing Page</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </footer>
@@ -243,28 +206,8 @@
 <script src="{{asset('landing-assets/plugins/menu/menu.js')}}"></script>
 <script src="{{asset('landing-assets/js/menu.js')}}"></script>
 <script src="{{asset('landing-assets/js/editor.js')}}"></script>
-{{--<script src="https://cdn.jsdelivr.net/npm/@editorjs/simple-image@latest"></script>--}}
-{{--<script src="https://cdn.jsdelivr.net/npm/@editorjs/image@2.3.0"></script>--}}
 <!-- Activation Script -->
 @include('sweetalert::alert')
-
-{{--<script>--}}
-{{--    const editor = new EditorJS({--}}
-{{--        autofocus: true,--}}
-{{--        holder:'editorjs',--}}
-{{--        tools: {--}}
-{{--            image: {--}}
-{{--                class: ImageTool,--}}
-{{--                config: {--}}
-{{--                    endpoints: {--}}
-{{--                        byFile: 'http://localhost:8000/user/upload-test', // Your backend file uploader endpoint--}}
-{{--                        byUrl: 'http://localhost:8000/user/fetchUrl', // Your endpoint that provides uploading by Url--}}
-{{--                    }--}}
-{{--                }--}}
-{{--            },--}}
-{{--        }--}}
-{{--    })--}}
-{{--</script>--}}
 </body>
 
 </html>
