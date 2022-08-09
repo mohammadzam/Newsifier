@@ -26238,5 +26238,8 @@ img.spin {
     transition: all 1s ease-out;
     filter: brightness(0.7);
 }
-
+.img-box-shadow{
+    border-radius: 10px;
+    box-shadow: 3px 0px 10px -1px #07c0ff;
+}
 /*# sourceMappingURL=maps/main.css.map */
