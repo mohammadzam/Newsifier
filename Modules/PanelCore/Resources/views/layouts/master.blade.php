@@ -87,11 +87,12 @@
             <div class="row justify-content-center">
                 <div class="col-12">
                     <div class="iso-mas-grid-wrap row">
+                        @if(isset($data) and count($data)>0)
                         @foreach($data as $datum)
                         <div class="col-lg-4 col-md-6  col-sm-6 gr-pb-7  isotope-item isotope-mas-item">
                             <div class="portfolio-card portfolio-card-masonry">
                                 <a href="#" class="card-image d-block">
-                                    <img src="{{$datum->image}}" alt="{{$datum->image}}" class="w-100">
+                                    <img src="{{$datum->image}}" alt="{{$datum->image}}" class="w-100 img-box-shadow">
                                 </a>
                                 <div class="text-start  text-block  gr-bg-opacity d-block ">
                                     <span class=" d-block ponter-event-none">Author: {{$datum->user->name}}</span>
@@ -100,6 +101,86 @@
                             </div>
                         </div>
                         @endforeach
+                        @else
+                            <div class="col-lg-4 col-md-6  col-sm-6 gr-pb-7  isotope-item isotope-mas-item all branding transition-all ">
+                                <div class="portfolio-card portfolio-card-masonry">
+                                    <a href="#" class="card-image d-block">
+                                        <img src="{{asset('landing-assets/image/portfolio/portfolio-1.png')}}" alt="" class="w-100">
+                                    </a>
+                                    <div class="text-start  text-block  gr-bg-opacity d-block ">
+                                        <span class=" d-block ponter-event-none">Author: Kaktus</span>
+                                        <h3 class="">Title: Candy Store</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6  col-sm-6 gr-pb-7  isotope-item isotope-mas-item all  photography design transition-all ">
+                                <div class="portfolio-card portfolio-card-masonry">
+                                    <a href="#" class="card-image d-block">
+                                        <img src="{{asset('landing-assets/image/portfolio/portfolio-2.png')}}" alt="" class="w-100">
+                                    </a>
+                                    <div class="text-start  text-block  gr-bg-opacity d-block ">
+                                        <span class=" d-block ponter-event-none">Author: Kaktus</span>
+                                        <h3 class="">Title: Candy Store</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6  col-sm-6 gr-pb-7  isotope-item isotope-mas-item all branding photography  transition-all ">
+                                <div class="portfolio-card portfolio-card-masonry">
+                                    <a href="#" class="card-image d-block">
+                                        <img src="{{asset('landing-assets/image/portfolio/portfolio-3.png')}}" alt="" class="w-100">
+                                    </a>
+                                    <div class="text-start  text-block  gr-bg-opacity d-block ">
+                                        <span class=" d-block ponter-event-none">Author: Kaktus</span>
+                                        <h3 class="">Title: Candy Store</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-6  col-sm-6 gr-pb-7  isotope-item isotope-mas-item branding photography design transition-all ">
+                                <div class="portfolio-card portfolio-card-masonry">
+                                    <a href="#" class="card-image d-block">
+                                        <img src="{{asset('landing-assets/image/portfolio/portfolio-4.png')}}" alt="" class="w-100">
+                                    </a>
+                                    <div class="text-start  text-block  gr-bg-opacity d-block ">
+                                        <span class=" d-block ponter-event-none">Author: Kaktus</span>
+                                        <h3 class="">Title: Candy Store</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6  col-sm-6 gr-pb-7  isotope-item isotope-mas-item all  photography design transition-all ">
+                                <div class="portfolio-card portfolio-card-masonry">
+                                    <a href="#" class="card-image d-block">
+                                        <img src="{{asset('landing-assets/image/portfolio/portfolio-5.png')}}" alt="" class="w-100">
+                                    </a>
+                                    <div class="text-start  text-block  gr-bg-opacity d-block ">
+                                        <span class=" d-block ponter-event-none">Author: Kaktus</span>
+                                        <h3 class="">Title: Candy Store</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6  col-sm-6 gr-pb-7  isotope-item isotope-mas-item all branding  transition-all ">
+                                <div class="portfolio-card portfolio-card-masonry">
+                                    <a href="#" class="card-image d-block">
+                                        <img src="{{asset('landing-assets/image/portfolio/portfolio-6.png')}}" alt="" class="w-100">
+                                    </a>
+                                    <div class="text-start  text-block  gr-bg-opacity d-block ">
+                                        <span class=" d-block ponter-event-none">Author: Kaktus</span>
+                                        <h3 class="">Title: Candy Store</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6  col-sm-6 gr-pb-7  isotope-item isotope-mas-item all photography design transition-all ">
+                                <div class="portfolio-card portfolio-card-masonry">
+                                    <a href="#" class="card-image d-block">
+                                        <img src="{{asset('landing-assets/image/portfolio/portfolio-7.png')}}" alt="" class="w-100">
+                                    </a>
+                                    <div class="text-start  text-block  gr-bg-opacity d-block ">
+                                        <span class=" d-block ponter-event-none">Author: Kaktus</span>
+                                        <h3 class="">Title: Candy Store</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        @endif
+
                     </div>
                 </div>
             </div>
