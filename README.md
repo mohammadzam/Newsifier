@@ -26,5 +26,8 @@ Attention: The order of commands must be observed
 - php artisan module:migrate Article
 by default the article table is empty
 
-# for search gifs image  into editor.js must be run vpn or proxy on your system or browser
 
+
+Nots
+- this project uploded in master branch
+- for search gifs image into editor.js must be run vpn or proxy on your system or browser
