@@ -31,8 +31,12 @@ by default the article table is empty
 - this project uploded in master branch
 - for search gifs image into editor.js must be run vpn or proxy on your system or browser (it varies depending on your country)
 - This plugin uses the GIPHY API for search GIFs
-- The API_KEY used in the plugin is:(h0gpeYOH4l6X2FrAXrl9D8pu3X2ReXp3), but if it does not work so you'll need to obtain an new API Key and copyed it in file: (public/landing-assets/js/button.js) in line 204 like this:
+- The API_KEY used in the plugin is:(h0gpeYOH4l6X2FrAXrl9D8pu3X2ReXp3), but if it does not work for you, so you'll need to obtain an new API Key and copyed it in file: (public/landing-assets/js/button.js) in line 204 like this:
 - data: {q:query,api_key:'YOUR_API_KEY', limit: giphyLimit, offset: offsetVal}
+
+# Login Information:
+- Phone: 0910000000
+- Password: password
 
 
 
