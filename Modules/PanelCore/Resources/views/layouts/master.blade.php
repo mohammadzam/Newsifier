@@ -91,7 +91,7 @@
                         <div class="col-lg-4 col-md-6  col-sm-6 gr-pb-7  isotope-item isotope-mas-item">
                             <div class="portfolio-card portfolio-card-masonry">
                                 <a href="#" class="card-image d-block">
-                                    <img src="{{$datum->image}}" alt="" class="w-100">
+                                    <img src="{{$datum->image}}" alt="{{$datum->image}}" class="w-100">
                                 </a>
                                 <div class="text-start  text-block  gr-bg-opacity d-block ">
                                     <span class=" d-block ponter-event-none">Author: {{$datum->user->name}}</span>
